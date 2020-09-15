@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.devsuperior.dspesquisa.dto.GameDTO;
 import com.devsuperior.dspesquisa.entities.Game;
-import com.devsuperior.dspesquisa.entities.dto.GameDTO;
 import com.devsuperior.dspesquisa.repositories.GameRepository;
 
 @Service
